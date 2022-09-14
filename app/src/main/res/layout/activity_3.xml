@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".activity3">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableLeft="@drawable/ic_baseline_pan_tool_24"
+        android:gravity="center"
+        android:text="HEY,AAKASH GANDHI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp" />.
+
+
+    <EditText
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="AIIMS discharging date -14.09.2021"
+        android:textSize="25dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_below="@id/user"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-26dp"
+        android:layout_marginBottom="388dp"
+        android:src="@drawable/aiims" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:layout_marginTop="246dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:text="DOWNLOAD PDF"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
